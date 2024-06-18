@@ -19,6 +19,5 @@ public class TiposVariaveis {
 
         final double VALOR_DE_PI = 3.4;
 
-        VALOR_DE_PI = 10.75;
     }
 }
