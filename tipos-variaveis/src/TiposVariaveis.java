@@ -1,4 +1,5 @@
 public class TiposVariaveis {
+    @SuppressWarnings("unused")
     public static void main(String[] args) throws Exception {
 //tipos primitivos
 //estudar a classe String que representa texto na aplicação
@@ -9,6 +10,7 @@ public class TiposVariaveis {
 
         short numeroCurto = 1;
         int numeroNormal = numeroCurto;
+        @SuppressWarnings("unused")
         short numeroCurto2 = (short) numeroNormal;
         
         int numero = 1;
@@ -16,8 +18,6 @@ public class TiposVariaveis {
         numero = 10;
 
         System.out.print(numero);
-
-        final double VALOR_DE_PI = 3.4;
 
     }
 }
