@@ -1,29 +1,28 @@
-import javax.print.DocFlavor.STRING;
-
 public class Operadores {
 
-    public static void main(String[] args) {
-        String concatenacao = "?";
+    public static void main(String[] args){
+      String nomeUm = "Isaac";
+      String nomeDois = new String("Isaac");
 
-        concatenacao = 1+1+1+"1";
+      System.out.println(nomeUm.equals(nomeDois));
 
-        System.err.println(concatenacao);
+      int numero1 = 1;
+      int numero2 = 2;
 
-        concatenacao = 1+"1"+1+1;
+      boolean SimNao = numero1 == numero2;
 
-        System.out.println(concatenacao);
+      if (numero1 < numero2) {
+        System.out.println("a nossa condicao é verdadeira");
+      }
+       
+System.out.println("numero1 é igual a numero2? " + SimNao);
 
-        concatenacao = 1+"1"+1+"1";
+SimNao = numero1 != numero2;
 
-        System.out.println(concatenacao);
+System.out.println("numero1 é diferente de numero2? " + SimNao);
 
-        concatenacao = "1"+1+1+1;
+SimNao = numero1 > numero2;
 
-        System.out.println(concatenacao);
-
-        concatenacao = "1"+(1+1+1);
-
-        System.out.println(concatenacao);
+System.out.println("numero1 é maior que numero2? " + SimNao);
     }
-    
-}
+  }
